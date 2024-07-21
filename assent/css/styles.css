@@ -1,10 +1,10 @@
 body {
     font-family: 'Arial', sans-serif;
-  background-color: #946abb;
+  background-color:#d36ca0;
   color: #333;
   margin: 0;
   padding: 0;
-  background-image: url('../img/fondo-coraaaa.png'); /* Ruta de la imagen de fondo */
+  background-image: url('../img/67663.jpg'); /* Ruta de la imagen de fondo */
   background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
   background-position: center center; /* Centra la imagen */
   background-repeat: no-repeat; /* Evita la repetición de la imagen */
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #d31e79;
+    background-color: #d36ca0;
     text-align: center;
     padding: 1em;
 }
@@ -36,7 +36,7 @@ header {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra al texto */
     letter-spacing: 2px; /* Espaciado entre letras */
     text-align: center; /* Centrar el texto */
-    background: linear-gradient(90deg, #d31e79,  #d31e79);
+    background: linear-gradient(90deg, #d36ca0,  #d36ca0);
   
    
 }
