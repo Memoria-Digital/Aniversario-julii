@@ -1,16 +1,19 @@
-body {
-    font-family: 'Arial', sans-serif;
-  background-color: #946abb;
-  color: #333;
-  margin: 0;
-  padding: 0;
-  background-image: url('../img/imagen-celu.jfif'); /* Ruta de la imagen de fondo */
-  background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
-  background-position: center center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita la repetición de la imagen */
-  background-attachment: fixed; /* Fija la imagen para evitar el movimiento */
-}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 
+    position: fixed; /* Fija la posición del contenedor */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/assent/img/fondo-coraaaa.png'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    background-position: center; /* Centra la imagen en la pantalla */
+    z-index: -1; /* Envía el contenedor al fondo */
+}
 header {
     background-color: #d36ca0;
     text-align: center;
