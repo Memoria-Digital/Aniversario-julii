@@ -1,19 +1,33 @@
-html, body {
-    height: 100%;
+body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    min-height: 100vh; /* Asegura que el body cubra toda la altura de la ventana */
+    color: #333;
+  }
 
-    position: fixed; /* Fija la posición del contenedor */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/assent/img/fondo-coraaaa.png'); /* Reemplaza con la ruta de tu imagen */
-    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
-    background-position: center; /* Centra la imagen en la pantalla */
-    z-index: -1; /* Envía el contenedor al fondo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f3e6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('/assent/img/fondo-coraaaa.png'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen */
+   
+    background-repeat: no-repeat;
 }
+@media (max-width: 1880px) {
+    body {
+      background-image: url('../img/imagen-celu.jfif'); /* Ruta de la imagen de fondo para móviles */
+       background-size: contain; /* Ajusta el tamaño de la imagen para móviles */
+       background-position: top center; /* Ajusta la posición de la imagen */
+       background-repeat: repeat; /* Repite la imagen verticalmente */
+     
+    }
+  }
+  
 header {
     background-color: #d36ca0;
     text-align: center;
