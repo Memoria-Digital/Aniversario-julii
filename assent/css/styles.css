@@ -1,17 +1,16 @@
 body {
     font-family: 'Arial', sans-serif;
-  background-color:#d36ca0;
-  color: #333;
-  margin: 0;
-  padding: 0;
-  background-image: url('../img/67663.jpg'); /* Ruta de la imagen de fondo */
- 
-  background-position: center ; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita la repetición de la imagen */
-  background-attachment: fixed; /* Fija la imagen para evitar el movimiento */
-  background-size: 100% 100%;
-
-}
+    background-color: #f0b8f1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/fondo-coraaaa.png'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-attachment: fixed; /* Fija la imagen para evitar el movimiento */
+  
+  }
 
 header {
     background-color: #d36ca0;
