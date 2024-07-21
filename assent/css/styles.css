@@ -8,7 +8,7 @@ body {
     background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
     background-position: center center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita la repetición dfe la imagen */
-    background-attachment: fixed; /* Fija la imagen para evitar el movimiento */
+   
   
   }
 
