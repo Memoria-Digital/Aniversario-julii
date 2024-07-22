@@ -29,7 +29,7 @@ body {
   }
   
 header {
-    background-color: #d36ca0;
+    background-color: #d31e79;
     text-align: center;
     padding: 1em;
 }
@@ -53,7 +53,7 @@ header {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra al texto */
     letter-spacing: 2px; /* Espaciado entre letras */
     text-align: center; /* Centrar el texto */
-    background: linear-gradient(90deg, #d36ca0,  #d36ca0);
+    background: linear-gradient(90deg, #d31e79,  #d31e79);
   
    
 }
